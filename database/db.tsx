@@ -41,7 +41,7 @@ export const createTables = () => {
     // Tabela Income
     tx.executeSql(
       `CREATE TABLE IF NOT EXISTS Income (
-        RendaID INTEGER PRIMARY KEY AUTOINCREMENT,
+        IncomeID INTEGER PRIMARY KEY AUTOINCREMENT,
         UserID INTEGER,
         EntryDate TEXT NOT NULL,
         IncomeAmount REAL NOT NULL,
